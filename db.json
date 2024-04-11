@@ -1,0 +1,74 @@
+{
+  "accounts": [
+    {
+      "name": "gabriella",
+      "id": "45453",
+      "balance": 840344,
+      "email": "gbwhatsapp@gmail.com",
+      "type": "fixed"
+    },
+    {
+      "id": "14490",
+      "name": "syllivester stallon",
+      "email": "kituisyllivester@gmail.com",
+      "balance": "3750000",
+      "type": "transactional"
+    },
+    {
+      "id": "443333",
+      "name": "Alex Wamaitha",
+      "email": "Alecky@gmail.com",
+      "balance": "25000",
+      "type": "savings"
+    },
+    {
+      "id": "09900",
+      "name": "Rita Sharon",
+      "email": "rita@gmail.com",
+      "balance": "400",
+      "type": "transactional"
+    },
+    {
+      "id": "243355",
+      "name": "Priscilla",
+      "email": "priscila@gmail.com",
+      "balance": "34500",
+      "type": "transactional"
+    },
+    {
+      "name": "everlyne",
+      "id": "789988",
+      "balance": 500000,
+      "email": "everlyne@gmail.com",
+      "type": "transactional"
+    },
+    {
+      "name": "Charles Alumade",
+      "id": "345645",
+      "balance": 700,
+      "email": "alu2012@gmail.com",
+      "type": "transactional"
+    },
+    {
+      "id": "233222",
+      "name": "Moyoni Mwangu",
+      "email": "moyoni@gmail.com",
+      "balance": "25000",
+      "type": "transactional"
+    },
+    {
+      "name": "perpetual wasike",
+      "id": "433222",
+      "balance": 3000,
+      "email": "pea@gmail.com",
+      "type": "savings"
+    },
+    {
+      "name": "Brayo the TM",
+      "id": "233221",
+      "balance": 300000,
+      "email": "brayo@gmail.com",
+      "type": "transactional"
+    }
+  ]
+}

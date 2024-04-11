@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Admin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 id="logo">Accounts Manager</h1>
+            <a href="#home">Home</a>            
+            <a href="#Contact">Contact</a>
+        </nav>
+
+        
+
+    </header>
+    
+
+    <body>
+        <div id="accountsCard">
+           
+            <div id="createAccount">
+            <h3>Create a New Bank Account:</h3>
+            <form id="accountForm">
+                <label for="name">Name:</label>
+                <input type="text" placeholder="enter name" id="name">
+                <br>
+                <label for="id">ID number:</label>
+                <input type="number" placeholder="enter ID number" id="idNumber">
+                <br>
+                <label for="email">Email:</label>
+                <input type="text" placeholder="enter email" id="email">
+                <br>
+                <label for="balance">Balance:</label>
+                <input type="number" placeholder="enter balance" id="balance">
+                <br>
+                <br>
+                <label for="type">Select Account Type:</label>
+                <select name="type" id="type">
+                    <option value="transactional">Transactional</option>
+                    <option value="savings">Savings</option>
+                </select>
+                <br>
+                <br>
+                <input type="submit" value="Create account" class="submit-button">
+            </form>
+        </div>
+        </div>
+        <div id="fileterAndDirection">
+        <h3 id="heading"><em>list of accounts held</em></h3>
+        <p id="direction">click an account for more details</p>
+        
+        </div>
+        <div class="divAccountList">
+            
+            <input type="text" id="filterInput" placeholder="filter">
+            <ul id="accountList">
+
+            </ul>
+        </div>
+        <div id="accountAnalysis">
+            <div id="highestBalance">
+                <p id="highestBalanceP"></p>
+                <p id="balanceP"></p>
+            </div>
+
+        </div>
+        <div id="accountInfo">
+            <h4><em>account details:</em></h4>
+            <p id="nameInfo"></p>
+            <p id="idInfo"></p>
+            <p id="balanceInfo"></p>
+            <p id="emailInfo"></p>
+            <p id="typeInfo"></p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+
+</body>
+
+</html>
