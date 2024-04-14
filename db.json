@@ -104,6 +104,13 @@
       "balance": 4500000,
       "email": "clem@gmail.com",
       "type": "transactional"
+    },
+    {
+      "name": "Gozbert",
+      "id": "76677",
+      "balance": 45000,
+      "email": "gozbert@gmail.com",
+      "type": "transactional"
     }
   ]
 }
