@@ -1,31 +1,24 @@
 {
   "accounts": [
     {
-      "name": "gabriella",
       "id": "45453",
-      "balance": 840344,
-      "email": "gbwhatsapp@gmail.com",
-      "type": "fixed"
-    },
-    {
-      "id": "14490",
-      "name": "syllivester stallon",
-      "email": "kituisyllivester@gmail.com",
-      "balance": "3750000",
+      "name": "everlyne",
+      "email": "everlyne1@gmail.com",
+      "balance": "50000",
       "type": "transactional"
     },
     {
-      "id": "443333",
-      "name": "Alex Wamaitha",
-      "email": "Alecky@gmail.com",
-      "balance": "25000",
-      "type": "savings"
+      "id": "14490",
+      "name": "everlyne",
+      "email": "everlyne1@gmail.com",
+      "balance": "50000",
+      "type": "transactional"
     },
     {
       "id": "09900",
-      "name": "Rita Sharon",
-      "email": "rita@gmail.com",
-      "balance": "400",
+      "name": "everlyne",
+      "email": "everlyne@gmail.com",
+      "balance": "50000",
       "type": "transactional"
     },
     {
@@ -36,10 +29,10 @@
       "type": "transactional"
     },
     {
-      "name": "everlyne",
       "id": "789988",
-      "balance": 500000,
+      "name": "everlyne",
       "email": "everlyne@gmail.com",
+      "balance": "50000",
       "type": "transactional"
     },
     {
@@ -51,9 +44,9 @@
     },
     {
       "id": "233222",
-      "name": "Moyoni Mwangu",
-      "email": "moyoni@gmail.com",
-      "balance": "25000",
+      "name": "everlyne",
+      "email": "everlyne1@gmail.com",
+      "balance": "50000",
       "type": "transactional"
     },
     {
@@ -68,6 +61,62 @@
       "id": "233221",
       "balance": 300000,
       "email": "brayo@gmail.com",
+      "type": "transactional"
+    },
+    {
+      "name": "Deborah",
+      "id": "344344",
+      "balance": 450000,
+      "email": "deb@gmail.com",
+      "type": "transactional"
+    },
+    {
+      "name": "Cyrus Kiprotich",
+      "id": "13697491",
+      "balance": 650000,
+      "email": "cyro@gmail.com",
+      "type": "savings"
+    },
+    {
+      "name": "Sitienei Hillary",
+      "id": "344333",
+      "balance": 780000,
+      "email": "sityy@gmail.com",
+      "type": "savings"
+    },
+    {
+      "name": "Mutalii  Mutali",
+      "id": "454444",
+      "balance": 560,
+      "email": "mutali@gmail.com",
+      "type": "savings"
+    },
+    {
+      "name": "AI Engineers",
+      "id": "2333222",
+      "balance": 23000000,
+      "email": "aiE@gmail.com",
+      "type": "savings"
+    },
+    {
+      "name": "Mauriciom",
+      "id": "122111",
+      "balance": 1223330,
+      "email": "MAU@GMAIL.COM",
+      "type": "transactional"
+    },
+    {
+      "id": "3332233",
+      "name": "Zebedayo Zebedyy ",
+      "email": "zebee@gmail.com",
+      "balance": "4440000",
+      "type": "transactional"
+    },
+    {
+      "name": "Paulo",
+      "id": "344555",
+      "balance": 3400000,
+      "email": "paulo@gmail.com",
       "type": "transactional"
     }
   ]

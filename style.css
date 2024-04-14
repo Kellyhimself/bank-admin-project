@@ -1,137 +1,181 @@
-/* #accountForm{
-    display: flex;
-    flex-direction: column;
-    width: 15rem;
-    position: absolute; 
-    left: 50rem;
-    
 
-} */
+@media only screen and (max-width: 768px) {
+    #createAccount {
+      width: 100%;
+      left: 0;
+      right: 0;
+      height: auto;
+      margin-top: 7rem;
+      padding: 0.5rem;
+      flex-direction: column;
+    }
+    #mode{
+        
+        margin-top: 4rem;
+        right: 0;
+        width: 10px;
+    }
+ 
+    .divAccountList {
+        width: 35%;
+        left: 0;
+        right: 0;
+        height: 5rem;
+        margin-top: 30rem;
+        padding: 0.5rem;
+      }
+    #accountInfo {
+        width: 100%;
+        left: 0;
+        top: 0;
+        padding: 0.5rem;
+        margin-top: 38rem;
+        height: 20rem;
+        margin-right: 0.5rem;
+      }
+    #updateForm{
+        
+        flex-direction: column;
+    }
+      nav {
+        flex-direction: column;
+        
+        padding: 4px;
+        justify-content: left;
+        
+      }
+      nav a {
+        padding: 0.1rem;
+        
+
+      }
+
+      #filterInput{
+        width: 80%;
+      }
+      #heading {
+        /* position: static; */
+        margin-top: 40rem;
+        padding: 0.5rem;
+        left: 0;
+        margin-left: 0;
+      }
+      #direction {
+        /* position: static; */
+        margin-top: 45rem;
+        padding: 0.5rem;
+      }
+    
+      .highlight {
+        background-color: rgb(201, 67, 67);
+      }
+}
+
+body{
+  align-items: center;
+  justify-content:flex-start;
+  text-align: center;
+}
+#accountForm input{
+  padding: 5px;
+  text-align: center;
+  left: 0px;
+
+}
 #createAccount{
-    width: 13rem;
-    position: absolute; 
-    height: 20rem;
-    top: 5rem; 
-    left: 50rem; 
-    right: 2px; 
-    bottom: 2px; 
-    padding: 1rem; 
-    font-size: 20px;
-    /* box-shadow: inset 0 0 0 2px red;  */
-   /*  overflow: auto; */
-}
-#accountInfo{
-    display: flex;
-    flex-direction: column;
-    width: 15rem;
-    position: absolute; 
-    left: 20rem;
-    top: 0px; 
-    padding: 1px;
-    box-shadow: inset 0 0 0 2px red; 
-    overflow: auto;
-    height: 20rem;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-
-}
-#accountInfo p {
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-nav{
-    display: flex;
-    flex-direction: row;    
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: larger;
-    font-weight: bold;
-    text-decoration: none;
-    text-align: left;
-    
-}
-nav a{
-    justify-content: space-around;
-    padding: 2rem;
-    top: 3px; 
-}
-#fileterAndDirection{
-    position: absolute; 
-    top: 0px; 
-    left: 1px; 
-    right: 2px; 
-    bottom: 2px; 
-    padding: 1rem; 
-   
-    margin-top:5rem;
-    padding-top: 20px;
-    
+  width: 30%;
+  font-size: 15px;
+  right: 8px;
+  position: absolute;
+  top: 12rem;
 }
 .divAccountList{
-    width: 10rem;
-    position: absolute; 
-    height: 10rem;
-    top: 2px; 
-    left: 2px; 
-    right: 2px; 
-    bottom: 2px; 
-    padding: 1rem; 
-    box-shadow: inset 0 0 0 2px red; 
-    overflow: auto;
+  left: 20px;
+  height: 20rem;
+  position:absolute;
+  box-shadow: inset 0 0 0 2px rgb(214, 193, 193);  
+  overflow: auto;
 }
-#heading{
-    text-decoration: underline;
-    position: absolute; 
-    top: 10px; 
-    left: 1px; 
-    right: 2px; 
-    bottom: 2px; 
-    padding: 1rem; 
-    margin-top:0px;
-    
-    
+#listAndHeading{
+  left: 20px;
+  position:absolute;
+  top: 10rem;
+  text-align: left;
+  
+  
 }
-#direction{
-    position: absolute; 
-    top: 25px; 
-    left: 2px; 
-    right: 2px; 
-    bottom: 2px; 
-    padding: 1rem; 
-    
+#accountInfo{
+  left: 18rem;
+  top: 16rem;
+  position:absolute;
+  box-shadow: inset 0 0 0 2px rgb(214, 193, 193);    
+  width: 50%;
+  padding: 10px;  
+  }
+#accountInfo p {
+  margin-top: 0;
+  margin-bottom: 5px;
 }
-.highlight{
-    background-color: rgb(201, 67, 67);
-}
-body{
-    position: relative;
-    
-    display: flex;
-    flex-direction: row;
-    
-    
-}
+nav{
+  justify-content:center;
+  display: flex;
 
+  
+}
+nav a{
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+nav h1{
+  position: absolute;
+  left: 20px
+}
+button {
+  width: 130px;
+  height: 20px;
+}
+#mode{
+  position: absolute;
+  right: 0px;
+  margin: 20px;
+}
+body.dark-mode {
+  background-color: #000000;
+  color: #f7ecec;
+}
+#highestBalance{
+  width: 50%;
+  position: absolute; 
+  height: 4rem;
+  top: 5rem; 
+  
+  text-align: left;
+ 
+  font-size: 18px;
+  border:10px grey;
+  border-radius: 4px;
+  box-shadow: inset 0 0 0 2px rgb(214, 193, 193); 
+  
+}
+#highestBalance p{
+  margin: 10px;
+}
 button{
-    display: inline-block;
-    padding: 15px;
-    height: 0.2rem;
-    width: 10rem;
-    border: rgb(250, 152, 152) solid; 
-   
-    border-radius: 2px;
+    
+  padding: 15px;
+  height: 0.2rem;
+  width: 10rem;
+  border: rgb(129, 120, 120) solid; 
+ 
+  border-radius: 10px;
 }
-#accountInfo, #accountsCard, .divAccountList {
-    margin-top: 100px;
-    width:20%;
-    flex-wrap: wrap;
-    margin-top:10rem;
-    margin-right: 0;
-    padding: 1rem;
 
-  }
-.submit-button {
-    width: 130px;
-    height: 20px;
-  }
+.highlight{
+    background-color: rgb(129, 120, 120);
+}
+#accountInfo, #accountsCard, .divAccountList, #createAccount h3, #selectAccountType  {
+  background-color: rgb(243, 231, 231);
+  color: #000000;
+}

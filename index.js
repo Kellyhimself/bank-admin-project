@@ -1,20 +1,17 @@
 document.addEventListener("DOMContentLoaded", () => {
+  //declaring variables for Dom manipulation
   const nameInfo = document.getElementById("nameInfo");
   const balanceInfo = document.getElementById("balanceInfo");
-
   const idInfo = document.getElementById("idInfo");
-
   const emailInfo = document.getElementById("emailInfo");
-
   const typeInfo = document.getElementById("typeInfo");
-
   const accountForm = document.getElementById("accountForm");
-
   const accountInfo = document.getElementById("accountInfo");
+  const mode = document.getElementById("mode");
 
   //add a delete button
   const deleteButton = document.createElement("button", (id = "deleteButton"));
-  deleteButton.innerText = "delete";
+  deleteButton.innerText = "delete account";
   //add an update button
   const updateButton = document.createElement("button", (id = "updateButton"));
   updateButton.innerText = "update account";
@@ -43,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
             const filterValue = filterInput.value.toLowerCase();
             // Filter the list of accounts
             for (let i = 0; i < accountList.children.length; i++) {
-              // Get the account text
+              // Get the account text of each
               const accountText =
                 accountList.children[i].textContent.toLowerCase();
               // Hide the account if it doesn't start with the filter value
@@ -221,5 +218,10 @@ document.addEventListener("DOMContentLoaded", () => {
       .catch((error) => {
         alert("error creating the account");
       });
+  });
+
+  //event listener for the mode button
+  mode.addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
   });
 });
