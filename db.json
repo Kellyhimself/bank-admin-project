@@ -1,38 +1,10 @@
 {
   "accounts": [
     {
-      "id": "45453",
-      "name": "everlyne",
-      "email": "everlyne1@gmail.com",
-      "balance": "50000",
-      "type": "transactional"
-    },
-    {
-      "id": "14490",
-      "name": "everlyne",
-      "email": "everlyne1@gmail.com",
-      "balance": "50000",
-      "type": "transactional"
-    },
-    {
-      "id": "09900",
-      "name": "everlyne",
-      "email": "everlyne@gmail.com",
-      "balance": "50000",
-      "type": "transactional"
-    },
-    {
       "id": "243355",
-      "name": "Priscilla",
-      "email": "priscila@gmail.com",
-      "balance": "34500",
-      "type": "transactional"
-    },
-    {
-      "id": "789988",
-      "name": "everlyne",
-      "email": "everlyne@gmail.com",
-      "balance": "50000",
+      "name": "Everlyne",
+      "email": "everlyne1@gmail.com",
+      "balance": "55500",
       "type": "transactional"
     },
     {
@@ -40,13 +12,6 @@
       "id": "345645",
       "balance": 700,
       "email": "alu2012@gmail.com",
-      "type": "transactional"
-    },
-    {
-      "id": "233222",
-      "name": "everlyne",
-      "email": "everlyne1@gmail.com",
-      "balance": "50000",
       "type": "transactional"
     },
     {
@@ -78,24 +43,10 @@
       "type": "savings"
     },
     {
-      "name": "Sitienei Hillary",
-      "id": "344333",
-      "balance": 780000,
-      "email": "sityy@gmail.com",
-      "type": "savings"
-    },
-    {
       "name": "Mutalii  Mutali",
       "id": "454444",
       "balance": 560,
       "email": "mutali@gmail.com",
-      "type": "savings"
-    },
-    {
-      "name": "AI Engineers",
-      "id": "2333222",
-      "balance": 23000000,
-      "email": "aiE@gmail.com",
       "type": "savings"
     },
     {
@@ -106,17 +57,52 @@
       "type": "transactional"
     },
     {
-      "id": "3332233",
-      "name": "Zebedayo Zebedyy ",
-      "email": "zebee@gmail.com",
-      "balance": "4440000",
-      "type": "transactional"
-    },
-    {
       "name": "Paulo",
       "id": "344555",
       "balance": 3400000,
       "email": "paulo@gmail.com",
+      "type": "transactional"
+    },
+    {
+      "name": "Sahal",
+      "id": "4555",
+      "balance": 30000,
+      "email": "sahal@gmail.com",
+      "type": "transactional"
+    },
+    {
+      "name": "wekesa",
+      "id": "37358533",
+      "balance": 3444400,
+      "email": "wek@gmail.com",
+      "type": "savings"
+    },
+    {
+      "name": "Benachi",
+      "id": "23322",
+      "balance": 34000,
+      "email": "benachi@gmail.com",
+      "type": "transactional"
+    },
+    {
+      "name": "Guardian",
+      "id": "099099",
+      "balance": 34000,
+      "email": "guardian@gmail.com",
+      "type": "transactional"
+    },
+    {
+      "name": "paul",
+      "id": "98877",
+      "balance": 90000,
+      "email": "paul@gmail.com",
+      "type": "savings"
+    },
+    {
+      "name": "Clement",
+      "id": "566666",
+      "balance": 4500000,
+      "email": "clem@gmail.com",
       "type": "transactional"
     }
   ]

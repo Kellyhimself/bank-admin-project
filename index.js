@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
               //make a FETCH PUT request to update the account
               fetch(`http://localhost:3000/accounts/${accountClicked.id}`, {
-                method: "PUT",
+                method: "PATCH",
                 headers: {
                   "Content-Type": "application/json",
                 },
